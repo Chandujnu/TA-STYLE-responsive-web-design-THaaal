@@ -107,6 +107,9 @@ h2 {
 p {
     color: grey;
 }
+/* .column {
+    flex-direction: column;
+} */
 
 
 /* ---header--- */
@@ -170,4 +173,33 @@ h3 {
 .footer a {
     color: white;
     padding-left: 1rem;
+}
+
+
+/* ---responsive--- */
+
+@media screen and (max-width: 768px) {
+    /* html {
+        font-size: 10px;
+    } */
+    .navbar {
+        flex-direction: column;
+    }
+    .nav {
+        padding-top: 1rem;
+        margin-right: 1.5rem;
+    }
+    .flex {
+        flex-wrap: wrap;
+    }
+    .flex-30, .flex-48 {
+        flex: 1 1 100%;
+        margin: 1.5rem 0; 
+    }
+    .lorem-box {
+        flex-direction: column-reverse;
+    }
+    .container {
+        padding: 0 2rem;
+    }
 }
