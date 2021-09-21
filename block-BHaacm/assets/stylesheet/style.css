@@ -187,7 +187,11 @@ h3 {
     }
     .nav {
         padding-top: 1rem;
-        margin-right: 1.5rem;
+    }
+    .nav a {
+        font-size: 0.9rem;
+        margin: 0;
+        margin: 1rem;
     }
     .flex {
         flex-wrap: wrap;
